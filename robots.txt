@@ -1,0 +1,119 @@
+# robots.txt
+# Site: Mr. Norton — Back to School Night (static single-page site on Cloudflare Pages)
+# Generated: 2026-08-13
+#
+# This is a fully public informational page with no sensitive paths,
+# admin areas, or private content. All legitimate crawlers are welcome.
+# ---------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------
+# MAJOR SEARCH ENGINES
+# Allow full crawl. Googlebot ignores Crawl-delay but it is set for parity.
+# ---------------------------------------------------------------------------
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 10
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 10
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 10
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 10
+
+# ---------------------------------------------------------------------------
+# WILDCARD CATCH-ALL
+# Covers every crawler not named elsewhere.
+# ---------------------------------------------------------------------------
+
+User-agent: *
+Allow: /
+Crawl-delay: 10
+
+# ---------------------------------------------------------------------------
+# AI TRAINING SCRAPERS — blocked
+# These bots harvest content to train AI models, not to index the site.
+# ---------------------------------------------------------------------------
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+# ---------------------------------------------------------------------------
+# AGGRESSIVE SEO / AUDIT CRAWLERS — blocked
+# High-volume crawlers that do not contribute to search indexing.
+# ---------------------------------------------------------------------------
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: SiteAuditBot
+Disallow: /
+
+User-agent: RogerBot
+Disallow: /
+
+# ---------------------------------------------------------------------------
+# SITEMAP
+# TODO: Replace the placeholder below with your full Cloudflare Pages URL
+# once the domain is known, e.g.: https://yoursite.pages.dev/sitemap.xml
+# Then submit the sitemap URL to Google Search Console and Bing Webmaster Tools.
+# ---------------------------------------------------------------------------
+
+# Sitemap: https://YOUR-DOMAIN-HERE/sitemap.xml
