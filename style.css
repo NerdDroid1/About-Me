@@ -428,9 +428,35 @@ a:focus-visible {
   font-weight: 500;
 }
 
+.interest-tag a,
+.interest-tag-violet a {
+  color: inherit;
+  font-weight: inherit;
+}
+
+.interest-tag a:hover,
+.interest-tag-violet a:hover {
+  color: inherit;
+  opacity: .75;
+}
+
 /* ── Philosophy ────────────────────────────────────── */
 .philosophy-bg {
-  background: var(--bg);
+  background: linear-gradient(135deg, var(--primary) 0%, #3D1580 60%, var(--secondary) 100%);
+  color: #fff;
+}
+
+.philosophy-bg .section-label {
+  color: rgba(255, 255, 255, .9);
+  background: rgba(255, 255, 255, .15);
+}
+
+.philosophy-bg .section-title {
+  color: #fff;
+}
+
+.philosophy-bg .section-subtitle {
+  color: rgba(255, 255, 255, .8);
 }
 
 .values-grid {
@@ -440,7 +466,7 @@ a:focus-visible {
 }
 
 .value-card {
-  background: var(--surface);
+  background: var(--bg);
   border: 1px solid var(--border);
   border-top: 3px solid var(--primary-mid);
   border-radius: var(--radius-card);
